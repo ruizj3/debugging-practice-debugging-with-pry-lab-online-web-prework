@@ -19,8 +19,8 @@ end
     true
   end
 
-  def ballin_candy_lover?(@candy_lover)
-    if @candy_lover == true
+  def ballin_candy_lover?(candy_lover)
+    if candy_lover == true
       "Aw sweet, this cat loves them some candy!"
     else
       10.times do
